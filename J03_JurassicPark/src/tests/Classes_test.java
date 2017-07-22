@@ -21,6 +21,6 @@ public class Classes_test {
 			totalViande += animal.mangeViande();
 			System.out.println(animal);
 		}
-		System.out.println("Il faut commander " + totalLegume + " kg de légumes et " + totalViande + " kg de viande");
+		System.out.println("Il faut commander " + totalLegume + " kg de lÃ©gumes et " + totalViande + " kg de viande");
 	}
 }

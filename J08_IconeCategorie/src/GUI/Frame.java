@@ -1,13 +1,13 @@
 package GUI;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
 @SuppressWarnings("serial")
 public class Frame extends JFrame {
 	
 	public Frame() {
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("Rafraîchissement");
+		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		this.setTitle("RafraÃ®chissement");
 		this.setSize(450, 300);
 		this.setVisible(true);
 	}
